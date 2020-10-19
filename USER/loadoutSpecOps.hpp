@@ -5,7 +5,7 @@ class specOps: ind_pmc_special {
         backpack = "";
         headgear[] = {"rhsusf_opscore_fg_pelt", "rhsusf_opscore_fg_pelt_cam", "rhsusf_opscore_fg_pelt_nsw"};
         primaryWeapon = "rhs_weap_hk416d10_LMT";
-        primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_red"
+        primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_red";
         primaryWeaponOptics[] = {"optic_holosight_blk_f", "rhsusf_acc_compm4"};
         primaryWeaponPointer = "";
         primaryWeaponMuzzle = "";
@@ -24,22 +24,13 @@ class specOps: ind_pmc_special {
         gps = "ItemGPS";
         radio = "TFAR_anprc152";
         goggles[] = {"G_Bandanna_tan", "rhsusf_shemagh2_grn", "rhsusf_shemagh2_od", "rhsusf_shemagh2_tan"};
+        nvgoggles = "NVGoggles";
     };
 
     class Type: Type {
         //rifleman
         class Soldier_F {
-            addItemsToUniform[] = {
-              "ACE_MapTools",
-              "ACE_EntrenchingTool",
-              "ACE_epinephrine",
-              "ACE_Flashlight_MX991",
-              LIST_6("ACE_fieldDressing"),
-              LIST_2("ACE_tourniquet"),
-              LIST_2("ACE_splint"),
-              LIST_2("ace_morphine")
-
-            };
+           
             addItemsToVest[] = {
               LIST_8("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_red"),
               LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),

@@ -12,12 +12,18 @@ if (side player == west) then {
 
         private _3dhandle = player getVariable ["hoppers_3ddrawHandler", -1];
         private _uihandle = player getVariable ["hoppers_uidrawHandler", -1];
+        private _clickhandle = player getVariable ["hoppers_clickEH", -1];
+
 
         if (_3dhandle > -1) then {
             removeMissionEventHandler ["Draw3D", _3dhandle];
         };
         if (_uihandle > -1) then {
             [_uihandle] call CBA_fnc_removePerFrameHandler;
+        };
+        if (_clickhandle > -1) then {
+            findDisplay 46 displayRemoveEventHandler ["MouseButtonUp", _clickhandle];
+            Hint "removed eh";
         };
     }];
 };

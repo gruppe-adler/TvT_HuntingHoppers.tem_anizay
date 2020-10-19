@@ -8,7 +8,7 @@ class EditorData
 	toggles=5;
 	class ItemIDProvider
 	{
-		nextID=909;
+		nextID=910;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2187.0183,150.41818,7702.0571};
-		dir[]={-0.24639794,-0.360302,0.89972323};
-		up[]={-0.095170967,0.93283057,0.34751689};
-		aside[]={0.9644959,1.2436067e-007,0.26413754};
+		pos[]={2175.4529,163.84262,7739.9438};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -163,7 +163,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -5310,20 +5310,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8428.5264,111.54144,7118.8994};
-								angles[]={0,0.5759666,0};
+								position[]={8428.5264,111.54144,7118.8999};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Zugführer@Squadlead";
+								description="PlatoonLeader@Squadlead";
 								isPlayable=1;
 								aiRadarUsage=544042752;
 							};
 							id=207;
 							type="B_Soldier_SL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5391,19 +5390,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8428.4131,111.54144,7114.9692};
-								angles[]={0,6.2824183,0};
+								position[]={8428.4131,111.54144,7114.9688};
+								angles[]={0,6.2824173,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								description="Zugführer Ass.";
+								description="Platoon Ass.";
 								isPlayable=1;
 							};
 							id=208;
 							type="B_Soldier_SL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5471,19 +5469,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8425.6455,111.54144,7114.3804};
-								angles[]={0,6.154242,0};
+								position[]={8425.6465,111.54144,7114.3809};
+								angles[]={0,6.1542401,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								description="Squad Medic";
+								description="Platoon Medic";
 								isPlayable=1;
 							};
 							id=209;
 							type="B_medic_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5631,7 +5628,6 @@ class Mission
 					{
 					};
 					id=206;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5764,18 +5760,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8429.876,111.54144,7098.9448};
-								angles[]={0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Bravo";
+								description="FireteamLeader@Bravo";
 								isPlayable=1;
 							};
 							id=481;
 							type="B_Soldier_TL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5843,19 +5838,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8426.4756,111.54144,7095.9312};
-								angles[]={-0,0.5759666,0};
+								position[]={8426.4756,111.54144,7095.9307};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=484;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6003,8 +5997,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8425.1807,111.54144,7097.2241};
-								angles[]={-0,0.5759666,0};
+								position[]={8425.1807,111.54144,7097.2236};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
@@ -6015,7 +6009,6 @@ class Mission
 							};
 							id=640;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6083,19 +6076,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8428.9502,111.54144,7094.9492};
-								angles[]={-0,0.5759666,0};
+								position[]={8428.9502,111.54144,7094.9487};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=642;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6163,7 +6155,6 @@ class Mission
 					{
 					};
 					id=480;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6200,19 +6191,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8429.7422,111.54144,7106.7803};
-								angles[]={0,0.5759666,0};
+								position[]={8429.7422,111.54144,7106.7798};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Alpha";
+								description="FireteamLeader@Alpha";
 								isPlayable=1;
 							};
 							id=495;
 							type="B_Soldier_TL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6280,19 +6270,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8426.8311,111.54144,7106.0352};
-								angles[]={0,0.5759666,0};
+								position[]={8426.8311,111.54144,7106.0347};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								description="Schütze LMG";
+								description="LMG";
 								isPlayable=1;
 							};
 							id=496;
 							type="B_soldier_AR_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6361,18 +6350,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8430.3096,111.54144,7103.8506};
-								angles[]={0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								description="Schütze LMG Ass.";
+								description="LMG Ass.";
 								isPlayable=1;
 							};
 							id=497;
 							type="B_soldier_AAR_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6440,19 +6428,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8427.7256,111.54144,7104.0605};
-								angles[]={-0,0.5759666,0};
+								position[]={8427.7256,111.54144,7104.061};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=498;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6600,7 +6587,6 @@ class Mission
 					{
 					};
 					id=494;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6724,7 +6710,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Rechte Hand vom Boss";
+								description="Hand of Boss";
 								isPlayable=1;
 							};
 							id=697;
@@ -6802,7 +6788,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Heilende Hand vom Boss";
+								description="Healing Hand of Boss";
 								isPlayable=1;
 							};
 							id=698;
@@ -6910,13 +6896,13 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2175.4526,138.84409,7764.9937};
+								position[]={2175.4529,138.84406,7764.9937};
 							};
 							side="East";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Alpha";
+								description="FireteamLeader@Alpha";
 								isPlayable=1;
 							};
 							id=700;
@@ -6988,13 +6974,13 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2173.5222,139.44041,7762.3286};
+								position[]={2173.522,139.44048,7762.3286};
 							};
 							side="East";
 							flags=5;
 							class Attributes
 							{
-								description="Schütze LMG";
+								description="LMG";
 								isPlayable=1;
 							};
 							id=701;
@@ -7067,13 +7053,13 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2176.6379,138.24051,7762.0073};
+								position[]={2176.6379,138.24054,7762.0078};
 							};
 							side="East";
 							flags=5;
 							class Attributes
 							{
-								description="Schütze LMG Ass.";
+								description="LMG Ass.";
 								isPlayable=1;
 							};
 							id=702;
@@ -7151,7 +7137,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=703;
@@ -7223,8 +7209,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2180.7903,137.77295,7763.1597};
-								angles[]={6.1147971,0,0.27486023};
+								position[]={2180.79,137.7729,7763.1597};
+								angles[]={6.1147957,0,0.27485445};
 							};
 							side="East";
 							flags=4;
@@ -7344,7 +7330,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Bravo";
+								description="FireteamLeader@Bravo";
 								isPlayable=1;
 							};
 							id=715;
@@ -7422,7 +7408,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=716;
@@ -7501,7 +7487,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=717;
@@ -7580,7 +7566,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=718;
@@ -7658,7 +7644,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=852;
@@ -7772,7 +7758,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Charlie";
+								description="FireteamLeader@Charlie";
 								isPlayable=1;
 							};
 							id=720;
@@ -7850,7 +7836,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=721;
@@ -7928,7 +7914,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=722;
@@ -8006,7 +7992,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=723;
@@ -8084,7 +8070,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=854;
@@ -8193,18 +8179,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2167.3621,141.54143,7786.3237};
+								position[]={2167.3621,141.54146,7786.3237};
 							};
 							side="East";
 							flags=3;
 							class Attributes
 							{
-								description="Driver@JeepFFV";
+								description="Driver@Dshkm";
 								isPlayable=1;
 							};
 							id=725;
 							type="O_Soldier_TL_F";
-							atlOffset=0.54397583;
+							atlOffset=0.54400635;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8272,18 +8258,17 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2165.9082,141.36769,7784.9268};
+								position[]={2165.908,141.3678,7784.9268};
 							};
 							side="East";
-							flags=1;
 							class Attributes
 							{
-								description="Schütze LMG";
+								description="Gunner@Dshkm";
 								isPlayable=1;
 							};
-							id=751;
-							type="O_Soldier_AR_F";
-							atlOffset=0.37489319;
+							id=909;
+							type="O_Soldier_F";
+							atlOffset=0.375;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8351,7 +8336,7 @@ class Mission
 					{
 					};
 					id=724;
-					atlOffset=0.54397583;
+					atlOffset=0.54400635;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8388,19 +8373,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8427.4629,111.54144,7090.3735};
-								angles[]={0,0.5759666,0};
+								position[]={8427.4629,111.54144,7090.374};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Charlie";
+								description="FireteamLeader@Charlie";
 								isPlayable=1;
 							};
 							id=728;
 							type="B_Soldier_TL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8549,7 +8533,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8422.7686,111.54144,7088.6528};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
@@ -8560,7 +8544,6 @@ class Mission
 							};
 							id=731;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8629,18 +8612,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8426.5381,111.54144,7086.377};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=732;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8709,18 +8691,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8424.8604,111.54144,7087.4668};
-								angles[]={-0,1.544729,0};
+								angles[]={0,1.544721,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=729;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8788,7 +8769,6 @@ class Mission
 					{
 					};
 					id=727;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8825,13 +8805,13 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2176.0361,142.24898,7736.9824};
+								position[]={2176.0359,142.24896,7736.9829};
 							};
 							side="East";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Delta";
+								description="FireteamLeader@Delta";
 								isPlayable=1;
 							};
 							id=856;
@@ -8909,7 +8889,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=857;
@@ -8988,7 +8968,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=858;
@@ -9067,7 +9047,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=859;
@@ -9145,7 +9125,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=860;
@@ -9253,19 +9233,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8430.749,111.54144,7079.8052};
-								angles[]={0,0.57595944,0};
+								position[]={8430.749,111.54144,7079.8047};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Delta";
+								description="FireteamLeader@Delta";
 								isPlayable=1;
 							};
 							id=862;
 							type="B_Soldier_TL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9494,18 +9473,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8429.8242,111.54144,7075.8086};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=865;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9574,18 +9552,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8428.1465,111.54144,7076.8979};
-								angles[]={-0,1.544729,0};
+								angles[]={0,1.544721,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=866;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9653,7 +9630,6 @@ class Mission
 					{
 					};
 					id=861;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9690,19 +9666,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8430.4727,111.54144,7068.9502};
-								angles[]={0,0.57595944,0};
+								position[]={8430.4727,111.54144,7068.9497};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Echo";
+								description="FireteamLeader@Echo";
 								isPlayable=1;
 							};
 							id=868;
 							type="B_Soldier_TL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9931,18 +9906,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8429.5488,111.54144,7064.9536};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=871;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10011,18 +9985,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8427.8711,111.54144,7066.043};
-								angles[]={-0,1.544729,0};
+								angles[]={0,1.544721,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=872;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10090,7 +10063,6 @@ class Mission
 					{
 					};
 					id=867;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10127,19 +10099,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8429.0596,111.54144,7057.5044};
-								angles[]={0,0.57595944,0};
+								position[]={8429.0596,111.54144,7057.5049};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Foxtrot";
+								description="FireteamLeader@Foxtrot";
 								isPlayable=1;
 							};
 							id=874;
 							type="B_Soldier_TL_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10208,7 +10179,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8425.5596,111.54144,7058.645};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
@@ -10219,7 +10190,6 @@ class Mission
 							};
 							id=875;
 							type="B_Pilot_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10288,7 +10258,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8424.3643,111.54144,7055.7827};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
@@ -10299,7 +10269,6 @@ class Mission
 							};
 							id=876;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10368,18 +10337,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8428.1348,111.54144,7053.5068};
-								angles[]={-0,0.5759666,0};
+								angles[]={0,0.57595867,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=877;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10448,18 +10416,17 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8426.458,111.54144,7054.5967};
-								angles[]={-0,1.544729,0};
+								angles[]={0,1.544721,0};
 							};
 							side="West";
 							flags=4;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=878;
 							type="B_Soldier_F";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10527,7 +10494,6 @@ class Mission
 					{
 					};
 					id=873;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10564,13 +10530,13 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2180.5222,145.29515,7725.3286};
+								position[]={2180.522,145.29509,7725.3286};
 							};
 							side="East";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Echo";
+								description="FireteamLeader@Echo";
 								isPlayable=1;
 							};
 							id=883;
@@ -10648,7 +10614,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=884;
@@ -10727,7 +10693,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=885;
@@ -10805,7 +10771,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=886;
@@ -10883,7 +10849,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=887;
@@ -10991,13 +10957,13 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2183.2622,146.01036,7713.3564};
+								position[]={2183.262,146.01044,7713.3569};
 							};
 							side="East";
 							flags=7;
 							class Attributes
 							{
-								description="Truppführer@Foxtrot";
+								description="FireteamLeader@Foxtrot";
 								isPlayable=1;
 							};
 							id=889;
@@ -11075,7 +11041,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=890;
@@ -11153,7 +11119,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=891;
@@ -11232,7 +11198,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=892;
@@ -11310,7 +11276,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Schütze";
+								description="Rifleman";
 								isPlayable=1;
 							};
 							id=893;
@@ -11408,7 +11374,7 @@ class Mission
 				};
 			};
 			id=205;
-			atlOffset=-2.4607391;
+			atlOffset=-2.4606323;
 		};
 		class Item3
 		{

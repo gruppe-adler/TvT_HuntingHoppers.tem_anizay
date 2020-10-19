@@ -11,7 +11,7 @@ class loadouts_opfor {
         secondaryWeaponMagazine = "";
         handgunWeapon = "";
         uniform[] = {"LOP_U_AM_Fatigue_01","LOP_U_AM_Fatigue_01_2","LOP_U_AM_Fatigue_01_3","LOP_U_AM_Fatigue_01_4","LOP_U_AM_Fatigue_01_5","LOP_U_AM_Fatigue_01_6","LOP_U_AM_Fatigue_02","LOP_U_AM_Fatigue_02_2","LOP_U_AM_Fatigue_02_3","LOP_U_AM_Fatigue_02_4","LOP_U_AM_Fatigue_02_5","LOP_U_AM_Fatigue_02_6","LOP_U_AM_Fatigue_03","LOP_U_AM_Fatigue_03_2","LOP_U_AM_Fatigue_03_3","LOP_U_AM_Fatigue_03_4","LOP_U_AM_Fatigue_03_5","LOP_U_AM_Fatigue_03_6","LOP_U_AM_Fatigue_04","LOP_U_AM_Fatigue_04_2","LOP_U_AM_Fatigue_04_3","LOP_U_AM_Fatigue_04_4","LOP_U_AM_Fatigue_04_5","LOP_U_AM_Fatigue_04_6"};
-        vest[] = {"V_BandollierB_khk", "V_BandollierB_rgr", "V_BandollierB_oli"};
+        vest[] = {"V_TacChestrig_oli_F"};
         backpack = "";
         headgear = "LOP_H_Pakol";
         goggles = "";
