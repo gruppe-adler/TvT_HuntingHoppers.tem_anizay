@@ -38,3 +38,23 @@ private _extractionStart = [
 ] call ace_interact_menu_fnc_createAction;
 
 [_boss, 1, ["ACE_SelfActions"], _extractionStart] call ace_interact_menu_fnc_addActionToObject;
+
+["ace_unconscious", {
+    params ["_unit", "_state"];
+
+    if (_state) then {   
+        [{
+            params ["_unit"];
+
+            // if player is still or again unconscious, trigger a 50/50 chance of dying or wakeup
+            if (_unit getVariable ["ACE_isUnconscious", false]) then {
+                if (random 1 > 0.5) then {
+                    [_unit, false] call ace_medical_status_fnc_setUnconsciousState;
+                    [_unit, _unit] call ace_medical_treatment_fnc_fullHeal;
+                } else {
+                    _unit setDamage 1;
+                };
+            };
+        }, [_unit], 180] call CBA_fnc_waitAndExecute;
+    };
+}] call CBA_fnc_addEventHandler;
