@@ -10,8 +10,8 @@ class loadouts_opfor {
         secondaryWeapon = "";
         secondaryWeaponMagazine = "";
         handgunWeapon = "";
-        uniform = "rhsgref_uniform_woodland_olive";
-        vest = "V_TacVest_blk";
+        uniform[] = {"LOP_U_AM_Fatigue_01","LOP_U_AM_Fatigue_01_2","LOP_U_AM_Fatigue_01_3","LOP_U_AM_Fatigue_01_4","LOP_U_AM_Fatigue_01_5","LOP_U_AM_Fatigue_01_6","LOP_U_AM_Fatigue_02","LOP_U_AM_Fatigue_02_2","LOP_U_AM_Fatigue_02_3","LOP_U_AM_Fatigue_02_4","LOP_U_AM_Fatigue_02_5","LOP_U_AM_Fatigue_02_6","LOP_U_AM_Fatigue_03","LOP_U_AM_Fatigue_03_2","LOP_U_AM_Fatigue_03_3","LOP_U_AM_Fatigue_03_4","LOP_U_AM_Fatigue_03_5","LOP_U_AM_Fatigue_03_6","LOP_U_AM_Fatigue_04","LOP_U_AM_Fatigue_04_2","LOP_U_AM_Fatigue_04_3","LOP_U_AM_Fatigue_04_4","LOP_U_AM_Fatigue_04_5","LOP_U_AM_Fatigue_04_6"};
+        vest[] = {"V_BandollierB_khk", "V_BandollierB_rgr", "V_BandollierB_oli"};
         backpack = "";
         headgear = "LOP_H_Pakol";
         goggles = "";
@@ -45,7 +45,6 @@ class loadouts_opfor {
 
         //autorifleman
         class Soldier_AR_F: Soldier_F {
-            vest = "V_Chestrig_oli";
             goggles = "rhs_balaclava1_olive";
             primaryWeapon = "rhs_weap_pkm";
             primaryWeaponMagazine = "rhs_100Rnd_762x54mmR_green";
@@ -63,16 +62,12 @@ class loadouts_opfor {
 
         //light AT
         class Soldier_LAT_F: Soldier_F {
-            uniform = "rhsgref_uniform_woodland";
-            vest = "V_TacVest_camo";
             goggles = "G_Bandanna_khk";
             secondaryWeapon = "rhs_weap_rpg26";
         };
 
         //ammo bearer
         class Soldier_A_F: Soldier_F {
-            uniform = "rhsgref_uniform_flecktarn";
-            vest = "V_TacVest_blk";
             goggles = "G_Balaclava_blk";
             backpack = "B_TacticalPack_oli";
             addItemsToBackpack[] = {
@@ -83,8 +78,6 @@ class loadouts_opfor {
 
         //assistant autorifleman
         class Soldier_AAR_F: Soldier_F {
-            uniform = "rhsgref_uniform_flecktarn";
-            vest = "V_TacVest_blk";
             goggles = "G_Balaclava_blk";
             backpack = "B_TacticalPack_oli";
             addItemsToBackpack[] = {
@@ -95,8 +88,6 @@ class loadouts_opfor {
 
         //medic
         class Medic_F: Soldier_F {
-            uniform = "rhsgref_uniform_woodland";
-            vest = "V_TacVest_blk";
             goggles = "G_Bandanna_tan";
             backpack = "B_AssaultPack_rgr";
             addItemsToBackpack[] = {
@@ -110,7 +101,6 @@ class loadouts_opfor {
 
         //team leader
         class Soldier_TL_F: Soldier_F {
-            vest = "V_TacVest_oli";
             goggles = "G_Bandanna_khk";
             primaryWeapon = "rhs_weap_ak74mr_gp25";
             backpack = "B_AssaultPack_rgr";
@@ -126,8 +116,6 @@ class loadouts_opfor {
 
         //squad leader
         class Soldier_SL_F: Soldier_TL_F {
-            uniform = "rhsgref_uniform_flecktarn";
-            vest = "rhsgref_TacVest_ERDL";
             goggles = "rhs_scarf";
         };
     };

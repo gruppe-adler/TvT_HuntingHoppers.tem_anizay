@@ -1,7 +1,7 @@
 class specOps: ind_pmc_special {
     class AllUnits: AllUnits {
         uniform = "rhs_uniform_FROG01_wd";
-        vest = "rhsusf_plateframe_light";
+        vest = "rhsusf_plateframe_rifleman";
         backpack = "";
         headgear[] = {"rhsusf_opscore_fg_pelt", "rhsusf_opscore_fg_pelt_cam", "rhsusf_opscore_fg_pelt_nsw"};
         primaryWeapon = "rhs_weap_hk416d10_LMT";
@@ -15,6 +15,8 @@ class specOps: ind_pmc_special {
         secondaryWeaponMagazine = "";
         handgunWeapon = "rhsusf_weap_glock17g4";
         handgunWeaponMagazine = "rhsusf_mag_17Rnd_9x19_FMJ";
+        handgunWeaponOptics = "";
+        handgunWeaponMuzzle = "";
         binoculars = "Binocular";
         map = "ItemMap";
         compass = "ItemCompass";
@@ -56,17 +58,7 @@ class specOps: ind_pmc_special {
           primaryWeaponMagazine = "rhsusf_200Rnd_556x45_mixed_soft_pouch"
           primaryWeaponOptics[] = {"optic_holosight_blk_f", "optic_erco_blk_f", "rhsusf_acc_g33_xps3", "rhsusf_acc_g33_t1", "rhsusf_acc_acog_rmr", "rhsusf_acc_compm4", "rhsusf_acc_eotech_552", ""};
             
-            addItemsToUniform[] = {
-              "ACE_MapTools",
-              "ACE_EntrenchingTool",
-              "ACE_epinephrine",
-              "ACE_Flashlight_MX991",
-              LIST_6("ACE_fieldDressing"),
-              LIST_2("ACE_tourniquet"),
-              LIST_2("ACE_splint"),
-              LIST_2("ace_morphine")
-
-            };
+           
             addItemsToVest[] = {
               LIST_2("rhsusf_200Rnd_556x45_mixed_soft_pouch"),
               LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
